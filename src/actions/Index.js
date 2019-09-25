@@ -1,9 +1,11 @@
 import axios from 'axios';
 
-export const FETCH_CURRENCIES = 'FETCH_CURRENCIES';
-export const FETCH_CURRENCY_DATA = 'FETCH_CURRENCY_DATA';
-export const FETCH_CURRENCY_DATA_FAILURE = 'FETCH_CURRENCY_DATA_FAILURE';
-export const REMOVE_CURRENCY = 'REMOVE_CURRENCY';
+import {
+  FETCH_CURRENCIES,
+  FETCH_CURRENCY_DATA,
+  FETCH_CURRENCY_DATA_FAILURE,
+  REMOVE_CURRENCY
+} from './types'
 
 const ROOT_URL = 'https://www.cryptonator.com/api';
 

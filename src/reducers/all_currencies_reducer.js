@@ -1,4 +1,4 @@
-import { FETCH_CURRENCIES } from '../actions/Index';
+import { FETCH_CURRENCIES } from '../actions/types';
 
 export default function(state = [], action) {
   switch(action.type) {

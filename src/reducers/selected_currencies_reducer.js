@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { FETCH_CURRENCY_DATA, REMOVE_CURRENCY } from '../actions/Index';
+import { FETCH_CURRENCY_DATA, REMOVE_CURRENCY } from '../actions/types';
 
 export default function(state = {}, action) {
   switch(action.type) {
