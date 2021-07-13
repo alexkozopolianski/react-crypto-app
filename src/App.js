@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from "react";
 
-import CryptoList from './components/crypto_list';
-import SelectedCryptoList from './components/selected_crypto_list';
+import CryptoList from "./components/cryptoList";
+import SelectedCryptoList from "./components/selectedCryptoList";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <CryptoList />
-        <SelectedCryptoList />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <CryptoList />
+      <SelectedCryptoList />
+    </div>
+  );
+};
+
+export default App;
